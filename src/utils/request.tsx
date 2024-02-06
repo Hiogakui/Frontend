@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'https://orangebackend.vercel.app/'
+    baseURL: 'https://orangebackend.onrender.com/'
 });
 
 export const setToken = (token:any) => {
