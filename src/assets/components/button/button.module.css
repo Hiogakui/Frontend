@@ -1,0 +1,14 @@
+.button{
+    border: 0;
+    border-radius: 0.3rem;
+    padding: 15px 12px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    background-color: #FF5522;
+    color: #FFFF;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #e84514;
+}

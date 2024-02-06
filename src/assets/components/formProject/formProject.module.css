@@ -1,0 +1,87 @@
+.button, .btn_save{
+    background-color: #FF5522;
+    box-shadow: none;
+}
+
+.button:hover, .btn_save:hover {
+    background-color: #e84514;
+}
+
+.btn_close {
+    color: #878787;
+    background-color: #d6d5d5;
+    box-shadow: none;
+    margin-left: 3%;
+}
+
+.btn_close:hover {
+    background-color: #b9b9b9;
+}
+
+.box_btn{
+    margin-top: 3%;
+}
+
+.link{
+    text-decoration: none;
+    color: #464646;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.text{
+    font-size: 1.2vw;
+}
+
+.img{
+    width: 28vw;
+    height: 19rem;
+    max-height: 335px;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+  
+  /* img {
+    width: 50px; 
+    height: 50px;
+    margin-bottom: 10px;
+  } */
+
+@media (max-width: 900px) {
+    .box{
+        top: 80%;
+    }
+    .fullInput{
+        width: 62vw;
+        margin-bottom: 4%;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .img{
+        width: 60.1vw;
+        height: 15rem;
+    }
+    .btn_close{
+        width: 33vw;
+    }
+    .btn_save{
+        width: 22vw;
+    }
+}
+
+@media (min-height: 800px) {
+    .box{
+        top: 60%;
+    }
+}
+
+@media (min-height: 1100px) {
+    .box{
+        top: 50%;
+    }
+}

@@ -1,0 +1,10 @@
+.seach{
+    width: 41vw;
+}
+
+@media (max-width: 899px) {
+    .seach{
+        width: 50%;
+        min-width: 250px;
+    }
+  } 

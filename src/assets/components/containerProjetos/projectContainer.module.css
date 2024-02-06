@@ -1,0 +1,15 @@
+.box{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.icon{
+    position: absolute;
+    margin-top: 1%;
+    left: 23%;
+    background-color: #FFCC99;
+}
+
+.icon:hover{
+    background-color: #fdbd7d;
+}

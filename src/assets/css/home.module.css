@@ -1,0 +1,25 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    margin-top: 122px;
+  }
+
+.BuscaProjetos{
+  margin-top: 4%;
+  margin-left: 2vw;
+}
+
+.Projetos{
+  margin: 5vh;
+}
+
+.title{
+  color: #94969b;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (max-width: 899px) {
+  .Container{
+    margin-top: 5%;
+  }
+}

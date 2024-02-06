@@ -1,0 +1,38 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    margin-top: 13vh;
+  }
+  
+  .BuscaProjetos {
+    margin-top: 100px;
+    margin-left: 2.4%;
+  }
+  
+  .tituloProjetos {
+    Width: 744px;
+    Height: 102px;
+    font-family: 'Roboto', sans-serif;
+    color: #0B0C0D;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 34px;
+    letter-spacing: 0.25px;
+    text-align: center;
+  }
+
+  @media (max-width: 459px) {
+    .Container{
+      margin-top: 10vh;
+    }
+    .tituloProjetos{
+      font-size: 8vw;
+    }
+  }
+
+  /* @media (max-width: 359px) {
+    .Container{
+      margin-top: 3vh;
+      font-size: 0.1vw;
+    }
+  } */
