@@ -1,12 +1,12 @@
 import * as React from "react";
 import Link from "next/link";
+import styles from "./navbar.module.css"
 import {AppBar, Toolbar, Box, IconButton, Tooltip, Avatar, Menu, 
     MenuList, MenuItem} from "@mui/material";
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import AccountIcon from '@mui/icons-material/AccountCircle';
 import LogoutIcon from '@mui/icons-material/Logout';
 import MenuIcon from '@mui/icons-material/Menu';
-import styles from "./navbar.module.css"
 
 export default function NavBar() {
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
