@@ -3,19 +3,19 @@
 }
 
 .boxTag{
-    margin-top: 5px;
-    margin-right: 20px;
+    margin-top: 5px !important;
+    margin-right: 20px !important;
 }
 
 .tag{
-    color: #000;
-    font-size: 10px;
-    margin-left: 6px;
-    background-color: #00000017;
+    color: #000 !important;
+    font-size: 10px !important;
+    margin-left: 6px !important;
+    background-color: #00000017 !important;
     cursor: default;
 }
 .tag:hover{
-    background-color: #00000017;
+    background-color: #00000017 !important;
 }
 
 .media{
