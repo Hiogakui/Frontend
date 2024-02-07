@@ -1,14 +1,14 @@
 .button{
     border: 0;
-    border-radius: 0.3rem;
-    padding: 15px 12px;
+    border-radius: 0.3rem !important;
+    padding: 15px 12px !important;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    background-color: #FF5522;
+    font-weight: 500 !important;
+    background-color: #FF5522 !important;
     color: #FFFF;
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 .button:hover{
-    background-color: #e84514;
+    background-color: #e84514 !important;
 }

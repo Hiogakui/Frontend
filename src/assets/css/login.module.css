@@ -68,7 +68,7 @@
 
 @media (max-width: 780px) {
   .box{
-    justify-content: center;
+    justify-content: center !important;
   }
   .div_img{
     display: none;
@@ -77,6 +77,6 @@
 
 @media (min-height: 1100px){
   .img{
-    margin-top: 17vh;
+    margin-top: 17vh !important;
   }  
 }

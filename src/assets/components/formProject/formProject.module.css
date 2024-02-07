@@ -1,25 +1,25 @@
 .button, .btn_save{
-    background-color: #FF5522;
+    background-color: #FF5522 !important;
     box-shadow: none;
 }
 
 .button:hover, .btn_save:hover {
-    background-color: #e84514;
+    background-color: #e84514 !important
 }
 
 .btn_close {
-    color: #878787;
-    background-color: #d6d5d5;
+    color: #878787 !important;
+    background-color: #d6d5d5 !important;
     box-shadow: none;
-    margin-left: 3%;
+    margin-left: 3% !important;
 }
 
 .btn_close:hover {
-    background-color: #b9b9b9;
+    background-color: #b9b9b9 !important;
 }
 
 .box_btn{
-    margin-top: 3%;
+    margin-top: 3% !important;
 }
 
 .link{
@@ -53,30 +53,30 @@
 
 @media (max-width: 900px) {
     .box{
-        top: 80%;
+        top: 80% !important;
     }
     .fullInput{
-        width: 62vw;
-        margin-bottom: 4%;
+        width: 62vw !important;
+        margin-bottom: 4% !important;
     }
     .text{
         font-size: 14px;
     }
     .img{
-        width: 60.1vw;
-        height: 15rem;
+        width: 60.1vw !important;
+        height: 15rem !important;
     }
     .btn_close{
-        width: 33vw;
+        width: 33vw !important;
     }
     .btn_save{
-        width: 22vw;
+        width: 22vw !important;
     }
 }
 
 @media (min-height: 800px) {
     .box{
-        top: 60%;
+        top: 60% !important;
     }
 }
 
