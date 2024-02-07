@@ -1,9 +1,9 @@
 import * as React from "react";
 import {Card, CardContent, Typography, Grid, IconButton} from '@mui/material';
-import styles from "./cards.module.css"
+import styles from "./cards.module.css";
 import BlenderIcon from '@mui/icons-material/Blender';
 import PeopleIcon from '@mui/icons-material/People';
-import LaptopMacIcon from '@mui/icons-material/LaptopMac';
+import LaptopMacIcon from '@mui/icons-material/LaptopMac'
 
 export default function Cards() {
     return (

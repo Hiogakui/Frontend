@@ -9,12 +9,12 @@
 }
 
 .icon{
-    font-size: 50px;
-    color:#FFFFFF;
+    font-size: 50px !important;
+    color:#FFFFFF !important;
 }
 
 .btnIcon{
-    background-color: #f84d03;
+    background-color: #f84d03 !important;
     margin-bottom: 20px;
     pointer-events: none;
 }
