@@ -11,25 +11,25 @@
 }
 
 .name{
-    color: #000;
-    font-weight: 600;
-    font-size: 13px;
+    color: #000 !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
 }
 
 .boxTag{
-    margin-top: 5px;
-    margin-right: 20px;
+    margin-top: 5px !important;
+    margin-right: 20px !important;
 }
 
 .tag{
-    color: #000;
-    font-size: 10px;
-    margin-left: 6px;
-    background-color: #00000017;
+    color: #000 !important;
+    font-size: 10px !important;
+    margin-left: 6px !important;
+    background-color: #00000017 !important;
     cursor: default;
 }
 .tag:hover{
-    background-color: #00000017;
+    background-color: #00000017 !important;
 }
 
 .img{
@@ -69,7 +69,7 @@
 
 @media (max-width: 899px) {
     .box{
-        top:60%;
+        top: 60% !important;
         width: 80%;
     }
     .title{
@@ -77,17 +77,17 @@
         display: flex;
         justify-content: center;
         padding: 0;
-        padding-bottom: 5%;
+        padding-bottom: 5% !important;
     }
     .content{
         padding-top: 1%;
     }
     .img{
-        height: 50vw;
+        height: 50vw !important;
     }
 }
 @media (min-height: 1020px) {
     .box{
-        top: 43%;
+        top: 43% !important;
     }
 }
